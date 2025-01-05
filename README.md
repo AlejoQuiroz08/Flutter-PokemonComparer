@@ -60,6 +60,39 @@ Este proyecto es una aplicación móvil desarrollada con Flutter que permite com
 4. Presiona "Enter" o el botón de búsqueda para cargar los datos y compararlos.
 5. Visualiza las estadísticas y la comparación entre ambos Pokémon.
 
+## Subir la aplicación a Aptoide
+
+Aptoide es una plataforma alternativa a Google Play Store para distribuir aplicaciones Android. Para subir tu aplicación a Aptoide, sigue estos pasos:
+
+### 1. Crear una cuenta en Aptoide
+
+- Visita [Aptoide Developer](https://dev.aptoide.com/) y crea una cuenta de desarrollador si aún no tienes una.
+
+### 2. Preparar el APK
+
+Primero, necesitas generar un archivo APK de tu aplicación. Si no lo has hecho ya, sigue estos pasos:
+
+1. Abre tu terminal y navega al directorio del proyecto Flutter.
+2. Ejecuta el siguiente comando para generar un APK de lanzamiento:
+
+    ```bash
+    flutter build apk --release
+    ```
+
+   Esto generará un archivo `.apk` optimizado en el directorio `build/app/outputs/flutter-apk/` de tu proyecto.
+
+### 3. Subir el APK a Aptoide
+
+1. Inicia sesión en tu cuenta de desarrollador en [Aptoide Developer](https://dev.aptoide.com/).
+2. En el panel de control, haz clic en el botón **"Upload your app"** o **"Sube tu aplicación"**.
+3. Completa los detalles de la aplicación, como el nombre, la descripción, la categoría, las capturas de pantalla, etc.
+4. Haz clic en **"Upload APK"** y selecciona el archivo `.apk` generado anteriormente.
+5. Sigue los pasos de la plataforma para completar el proceso y enviar la aplicación para su revisión.
+
+### 4. Publicar la aplicación
+
+Una vez que tu aplicación haya sido revisada y aprobada, aparecerá en la tienda de Aptoide, y podrás compartir el enlace con otros usuarios para que la descarguen.
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas colaborar con el proyecto, sigue estos pasos:
